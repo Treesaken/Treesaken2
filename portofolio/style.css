@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Itim&family=Roboto:wght@400;500&family=Sniglet&family=Space+Mono&display=swap');
+
+:root {
+    /* Colors */
+    --_398-f-75: #398f75;
+    --_2-e-8474-gradien: linear-gradient(
+        -15.23deg,
+        rgba(46, 132, 116, 1) 0%,
+        rgba(133, 218, 120, 0) 100%
+      ),
+      linear-gradient(to left, #2e8474, #2e8474);
+    --_68-ad-91: rgba(104, 173, 145, 0.69);
+    --_68-ad-91: #0b0b0b;
+    --_444444: #444444;
+    --_737373: #737373;
+    --_0-b-0-b-0-b: #0a4a58;
+    --_8-fcef-8: #8fcef8;
+    --_737374: #00aaf3;
+    --fbc-603: #fbc603;
+    --e-0-e-0-e-0: #e0e0e0;
+    --bfbfbf: #ffffff;
+  
+    /* Fonts */
+    --title-font: 400 48px "Sniglet", sans-serif;
+    --caption-font: 400 24px "Courier Prime", sans-serif;
+    --title-72: 400 72px "Sniglet", sans-serif;
+    --caption-24-px: 400 24px "Courier Prime", sans-serif;
+    --font-card: 700 14px "Roboto", sans-serif;
+    --years-card: 700 15px "Roboto", sans-serif;
+    --category-card: 500 14px "Roboto", sans-serif;
+    --title-64: 400 64px "Sniglet", sans-serif;
+    --title-36: 400 36px "Sniglet", sans-serif;
+    --title-48: 400 48px "Sniglet", sans-serif;
+    --title-33: 400 33px "Sniglet", sans-serif;
+    --title-30: 400 30px "Sniglet", sans-serif;
+    --button-font: 400 30px "Itim", sans-serif;
+    --loading-404-font: 400 28px "Space Mono", sans-serif;
+  
+    /* Effects */
+  }
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+/* STARTING.HTML */
+.starting-pages, .starting-pages * {
+    box-sizing: border-box;
+}
+    
+.starting-pages {
+    background: #0a4a58;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.title {
+    position: absolute;
+    inset: 0;
+}
+.wallpaper-2 {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .hello-welcome-to-my-world {
+    color: #e0e0e0;
+    text-align: center;
+    font: var(--title-48);
+    position: absolute;
+    left: 30%;
+    top: 25%;
+  }
+  .i {
+    color: #e0e0e0;
+    text-align: center;
+    font: var(--caption-font);
+    position: absolute;
+    left: 32%;
+    top: 45%;
+    font-size: 16px;
+  }
+
+  .btn1 {
+    position: absolute;
+    inset: 0;
+  }
+  .btn2 {
+    background: #444444;
+    border-radius: 23px;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    left: 42%;
+    top: 55%;
+    box-shadow: 0px 6.4px 4px 0px rgba(0, 0, 0, 1);
+    font: var(--button-font);
+    color: #e0e0e0;
+  }
+.lets {
+    color: #e0e0e0;
+    text-align: left;
+    position: absolute;
+    left: 30px;
+    top: 18px;
+    font: var(--button-font);
+    font-size: 24px;
+}
+.gambar {
+    position: absolute;
+    left: 110px;
+    top: 0;
+    width: 32px;
+    height: 32px;
+}
+
+
+/* LOADING SCREEN */
+.loading-screen, .loading-screen * {
+    box-sizing: border-box;
+    }
+.loading-screen {
+   background: #000000;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+   }
+
+.pacman-2 {
+   width: 500px;
+    height: 150px;
+    position: absolute;
+    left: 30%;
+   top: 40%;
+   }
+
+
+/* HOME.HTML */
+.home, .home * {
+    box-sizing: border-box;
+    }
+.home {
+   background: #ffffff;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+   }
+
+.coding-wallpapers-38-1 {
+   width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0px;
+   top: 1px;
+   }
+
+.rectangle-1 {
+   background: rgba(99, 98, 98, 0.69);
+    width: 156px;
+    height: 1077px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.getmyresume2 {
+   background: #444444;
+   color: #e0e0e0;
+    border-radius: 15px;
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    left: 219px;
+   top: 410px;
+    box-shadow: 2px 6.4px 4px 0px rgba(27, 27, 27, 1.00);
+    font: var(--button-font);
+    font-size: 20px;
+   }
+
+.icon {
+   position: absolute;
+    inset: 0;
+   }
+
+img {
+   width: 40px;
+   height: 40px;
+}
+.home2 {
+   position: absolute;
+   width: 50px;
+   height: 50px;
+    left: 50px;
+   top: 100px;
+    overflow: visible;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   }
+
+.about {
+   position: absolute;
+   width: 50px;
+   height: 50px;
+    left: 50px;
+   top: 200px;
+    overflow: visible;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   }
+
+.skill {
+   position: absolute;
+   width: 50px;
+   height: 50px;
+    left: 50px;
+   top: 300px;
+    overflow: visible;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   }
+
+.portfolio {
+   position: absolute;
+   width: 50px;
+   height: 50px;
+    left: 50px;
+   top: 400px;
+    overflow: visible;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   }
+
+.contact-me {
+   position: absolute;
+   width: 50px;
+   height: 50px;
+    left: 50px;
+   top: 500px;
+    overflow: visible;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   }
+
+.hi-i-am-arfian-cahya-website-developer {
+   color: #ffffff;
+    text-align: left;
+    font: var(--title-48);
+    position: absolute;
+    left: 227px;
+   top: 150px;
+   }
+
+.front-end-developer-ui-ix-design {
+   color: #ffffff;
+    text-align: left;
+    font: var(--caption-font);
+    position: absolute;
+    left: 227px;
+   top: 350px;
+   }
+
+
+.get-my-resume2 {
+   background-color: #444444;
+}
+
+/* style.css */
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+.slide-in-right {
+    animation: slideInRight 2000ms ease;
+    animation-timing-function: ease-in;
+    animation-duration: 300ms;
+}
+
